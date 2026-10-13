@@ -1,0 +1,124 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'
+    );
+
+body {
+    min-height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    /* warna font */
+    color: #30264d; 
+
+    background-image: url(index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.border {
+    width: 500px;
+    margin: 50px auto;
+    padding: 45px;
+
+    border-radius: 30px;
+    box-shadow: 0 7px 25px #2b124c;
+    background-color:  #ff4f4f;
+    border: 6px solid #2b124c;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: auto;
+    font-weight: 840;
+    letter-spacing: 5px;
+    color: #ffe66d;
+    margin-bottom: 7px;
+    text-shadow: 3px 2px 0 #77e7f5;
+    font-family: Outfit, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #90f2ff;
+    margin-bottom: 29px;
+    margin-top: auto;
+    font-family: Outfit, sans-serif;
+}
+
+.p {
+    max-width: 580px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+    font-weight: 650;
+    color: #3c1f5a;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+    font-family: Roboto, sans-serif;
+}
+
+body > p:nth-of-type(2) {
+    max-width: 580px;
+    margin: 0 auto 35px;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #2b124c;
+}
+
+button {
+    display: block;
+    width: min(100%, 430px);
+    margin: 16px auto;
+    /* lebar button */
+    padding: 20px 24px;
+
+    border: 2px solid #c8a2ff;
+    border-radius: 20px;
+    background: #fff0fa;
+    /* font color */
+    color: #4a286b;
+
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+
+    cursor: pointer;
+    box-shadow: 0 5px 0 #9b6dda;
+    transition: 0.2s ease;
+}
+
+button:nth-of-type(1) {
+    border-left: 7px solid #c8a2ff;
+}
+
+button:nth-of-type(2) {
+    border-left: 7px solid #54dfff;
+}
+
+button:nth-of-type(3) {
+    border-left: 7px solid #ff8dc7;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 2px 0 #9b6dda;
+    background: #ffe0f2; 
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #9b6dda;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 45px 18px;
+    }
+    button {
+        padding: 18px;
+        font-size: 0.9rem;
+    }
+}
